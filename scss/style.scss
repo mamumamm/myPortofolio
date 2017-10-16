@@ -1,0 +1,98 @@
+$transparan: transparent;
+$default: #fff;
+$active: #8799a3;
+$btn: #ffff00;
+$text-clr: #636363;
+$heading: #0081ff;
+
+
+// Global
+body {
+	font-size: 14px;
+}
+.container-fluid.main {
+	background-image: url("assets/bg-header.jpg");
+	background-size: 140%;
+	background-position-y: -100px;
+	height: 800px;	
+	padding: 0;
+}
+.opacity {
+	background-color: rgba(0,0,0,0.5);
+	height: 800px;
+}
+.container {
+	width: 1040px;
+	max-width: 100%;
+}
+.text-left {
+	color: $default;
+	font-family: 'Cambay', sans-serif;
+	margin: 20px 0;
+}
+h2.text-left,
+h1.text-left {
+	font-family: 'Montserrat', sans-serif;
+}
+.btn {
+	font-size: 14px!important;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+
+// Navbar
+.bg-dark {
+	background-color: $transparan!important;
+}
+.navbar-brand img{
+	height: 50px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	font-size: 16px;
+	padding: 0 20px;
+	color: $default;
+}
+.navbar-dark .navbar-nav .nav-item.active .nav-link {
+	color: $active;
+}
+.btn-outline-warning {
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 7px 25px;
+	color: $btn!important;
+	border-color: $btn!important;
+	border-radius: 50px 50px;
+	background-color: $transparan;
+	background-image: none;
+	box-shadow: 0px 1px 10px $btn;
+}
+
+// Intro
+.align-self-start {
+	margin-top: 200px;
+	padding: 0;
+}
+h2.text-left {
+	font-size: 29px;
+}
+h1.text-left {
+	font-size: 45px;
+	text-transform: capitalize;
+	font-weight: 900;
+}
+
+h3.text-left {
+	font-family: 'Leckerli One', cursive;
+}
+p.text-left {
+	font-size: 20px;
+	color: $text-clr;
+	max-width: 400px;
+}
+.btn.btn-dark {
+	border-radius: 50px 50px;
+	text-transform: uppercase;
+	padding: 10px 30px;
+}

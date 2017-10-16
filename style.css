@@ -1,0 +1,83 @@
+body {
+  font-size: 14px; }
+
+.container-fluid.main {
+  background-image: url("assets/bg-header.jpg");
+  background-size: 140%;
+  background-position-y: -100px;
+  height: 800px;
+  padding: 0; }
+
+.opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 800px; }
+
+.container {
+  width: 1040px;
+  max-width: 100%; }
+
+.text-left {
+  color: #fff;
+  font-family: 'Cambay', sans-serif;
+  margin: 20px 0; }
+
+h2.text-left,
+h1.text-left {
+  font-family: 'Montserrat', sans-serif; }
+
+.btn {
+  font-size: 14px !important;
+  font-weight: 700;
+  cursor: pointer; }
+
+.bg-dark {
+  background-color: transparent !important; }
+
+.navbar-brand img {
+  height: 50px; }
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 16px;
+  padding: 0 20px;
+  color: #fff; }
+
+.navbar-dark .navbar-nav .nav-item.active .nav-link {
+  color: #8799a3; }
+
+.btn-outline-warning {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 7px 25px;
+  color: #ffff00 !important;
+  border-color: #ffff00 !important;
+  border-radius: 50px 50px;
+  background-color: transparent;
+  background-image: none;
+  box-shadow: 0px 1px 10px #ffff00; }
+
+.align-self-start {
+  margin-top: 200px;
+  padding: 0; }
+
+h2.text-left {
+  font-size: 29px; }
+
+h1.text-left {
+  font-size: 45px;
+  text-transform: capitalize;
+  font-weight: 900; }
+
+h3.text-left {
+  font-family: 'Leckerli One', cursive; }
+
+p.text-left {
+  font-size: 20px;
+  color: #636363;
+  max-width: 400px; }
+
+.btn.btn-dark {
+  border-radius: 50px 50px;
+  text-transform: uppercase;
+  padding: 10px 30px; }
+
+/*# sourceMappingURL=style.css.map */
