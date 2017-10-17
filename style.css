@@ -39,6 +39,15 @@ p.text-left {
   font-weight: 700;
   cursor: pointer; }
 
+.col.align-self-start,
+ul.social-menu {
+  padding: 0; }
+
+.col-md-10 p,
+.social-menu,
+.social-menu li {
+  display: inline-block; }
+
 .bg-dark {
   background-color: transparent !important; }
 
@@ -65,8 +74,7 @@ p.text-left {
   box-shadow: 0px 1px 10px #ffff00; }
 
 .col.align-self-start {
-  margin-top: 200px;
-  padding: 0; }
+  margin-top: 200px; }
 
 .align-self-start h2.text-left {
   font-size: 31px; }
@@ -83,7 +91,7 @@ p.text-left {
 
 .container-fluid {
   background-color: #0081FF;
-  padding: 100px 0 50px; }
+  padding: 100px 0 60px; }
 
 .row {
   color: #fff; }
@@ -95,20 +103,42 @@ p.text-left {
 .row p.text-left {
   max-width: 100%;
   color: #fff;
-  margin-top: 80px; }
+  margin: 80px 0 0; }
+
+.row p.text-left:last-child {
+  margin-top: 0; }
 
 div.container-fluid {
   background-color: #007af3;
-  padding: 70px 0 30px; }
+  padding: 80px 0 35px;
+  margin-top: 60px; }
 
 .media img {
   height: 60px; }
 
 h5.mt-0 {
   font-weight: 700;
-  margin-bottom: 20px; }
+  margin-bottom: 25px; }
 
 .media-body p {
   font-size: 18px; }
+
+.social {
+  margin-top: 70px; }
+
+.col-md-4 p {
+  font-size: 20px; }
+
+.social-menu li a {
+  padding: 0 10px; }
+
+.social-menu li.active a i,
+.social-menu li a i:hover {
+  color: #fff; }
+
+.social-menu li a i {
+  color: white;
+  font-size: 21px;
+  color: #3a9dff; }
 
 /*# sourceMappingURL=style.css.map */
