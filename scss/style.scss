@@ -31,8 +31,17 @@ body {
 	margin: 20px 0;
 }
 h2.text-left,
-h1.text-left {
+h1.text-left,
+h5.mt-0 {
 	font-family: 'Montserrat', sans-serif;
+}
+h3.text-left {
+	font-family: 'Leckerli One', cursive;
+}
+p.text-left {
+	font-size: 20px;
+	color: $text-clr;
+	max-width: 400px;
 }
 .btn {
 	font-size: 14px!important;
@@ -70,29 +79,53 @@ h1.text-left {
 }
 
 // Intro
-.align-self-start {
+.col.align-self-start {
 	margin-top: 200px;
 	padding: 0;
 }
-h2.text-left {
+.align-self-start h2.text-left {
 	font-size: 31px;
 }
-h1.text-left {
+.align-self-start h1.text-left {
 	font-size: 48px;
 	text-transform: capitalize;
 	font-weight: 900;
-}
-
-h3.text-left {
-	font-family: 'Leckerli One', cursive;
-}
-p.text-left {
-	font-size: 20px;
-	color: $text-clr;
-	max-width: 400px;
 }
 .btn.btn-dark {
 	border-radius: 50px 50px;
 	text-transform: uppercase;
 	padding: 10px 30px;
+}
+
+// Section
+.container-fluid {
+	background-color: #0081FF;
+	padding: 100px 0 50px;
+}
+.row {
+	color: $default;
+
+}
+.row h2.text-left {
+	font-weight: 900;
+	font-size: 36px;
+}
+.row p.text-left {
+	max-width: 100%;
+	color: $default;
+	margin-top: 80px;
+}
+div.container-fluid {
+	background-color: #007af3;
+	padding: 70px 0 30px;
+}
+.media img {
+	height: 60px;
+}
+h5.mt-0 {
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.media-body p {
+	font-size: 18px;
 }
