@@ -7,6 +7,9 @@ $heading: #0081ff;
 
 
 // Global
+h1, h2, h3, h4, h5, h6, p {
+	letter-spacing: 0.5px;
+}
 body {
 	font-size: 14px;
 }
@@ -39,9 +42,9 @@ h3.text-left {
 	font-family: 'Leckerli One', cursive;
 }
 p.text-left {
-	font-size: 20px;
+	font-size: 22px;
 	color: $text-clr;
-	max-width: 400px;
+	max-width: 450px;
 }
 .btn {
 	font-size: 14px!important;
@@ -52,12 +55,10 @@ p.text-left {
 ul.social-menu {
 	padding: 0;
 }
-.col-md-10 p,
-.social-menu,
-.social-menu li {
-	display: inline-block;
-}
 
+.col-md-4 p {
+	font-size: 21px;
+}
 
 // Navbar
 .bg-dark {
@@ -68,7 +69,7 @@ ul.social-menu {
 }
 
 .navbar-dark .navbar-nav .nav-link{
-	font-size: 16px;
+	font-size: 18px;
 	padding: 0 20px;
 	color: $default;
 }
@@ -93,10 +94,10 @@ ul.social-menu {
 
 }
 .align-self-start h2.text-left {
-	font-size: 31px;
+	font-size: 34px;
 }
 .align-self-start h1.text-left {
-	font-size: 48px;
+	font-size: 51px;
 	text-transform: capitalize;
 	font-weight: 900;
 }
@@ -140,16 +141,12 @@ h5.mt-0 {
 	font-weight: 700;
 	margin-bottom: 25px;
 }
-.media-body p {
-	font-size: 18px;
-}
-
 // Social-Menu
 .social {
 	margin-top: 70px;
 }
-.col-md-4 p {
-	font-size: 20px;
+.social-menu li {
+	display: inline-block;
 }
 .social-menu li a {
 	padding: 0 10px;
@@ -159,7 +156,7 @@ h5.mt-0 {
 	color: $default;
 }
 .social-menu li a i {
-	color: white;
-	font-size: 21px;
+	font-size: 22px;
 	color: #3a9dff;
+	margin-top: 5px;
 }
