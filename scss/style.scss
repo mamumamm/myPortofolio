@@ -35,7 +35,8 @@ body {
 }
 h2.text-left,
 h1.text-left,
-h5.mt-0 {
+h5.mt-0,
+p.card-text {
 	font-family: 'Montserrat', sans-serif;
 }
 h3.text-left {
@@ -100,7 +101,7 @@ header .container:first-child {
 	margin-top: 30px;
 }
 .col.align-self-start {
-	margin-top: 200px;
+	margin-top: 170px;
 
 }
 .align-self-start h2.text-left {
@@ -187,7 +188,7 @@ h5.mt-0 {
 	margin-left: 80px;
 	text-transform: uppercase;
 	padding: 15px 43px;
-	box-shadow: 0 1px 10px #1CBBB3!important;
+	box-shadow: 0 6px 20px #1cbbb3!important;
 }
 
 // Gallery
@@ -195,11 +196,48 @@ h5.mt-0 {
 	padding: 0;
 }
 .card-img-top.primary-photo {
-	height: 375px;
+	height: 365px;
+	object-fit: cover;
+}
+.col-md-6 .primary-photo {
+	transform: scale(1.5);
+}
+.col-md-12 .primary-photo {
+	transform: scale(1.2);
 }
 .card-img-top {
-	height: 255px;
+	height: 235px;
 }
-.col-3 .img-2 {
-	height: 630px;
+.col-md-3 .img-2 {
+	transform: scale(1.1);
+	height: 600px;
+	object-fit: cover;
+}
+.col-12.col-md-3,
+.col-12.col-md-6 {
+	overflow: hidden;
+
+}
+.card-img-overlay {
+	background-color: rgba(0,0,0,0.5);
+	color: $default;
+	opacity: 0;
+	transition: 0.5s ease;
+}
+.card-img-overlay:hover {
+	opacity: 1;
+}
+.card-img-overlay h6 {
+	color: #b5b4b4;
+} 
+
+.card-img-overlay p {
+	font-size: 17px;
+	font-weight: 700;
+	max-width: 80%;
+	margin: 0 auto;
+}
+.card-img-overlay img {
+	height: 15px;
+	margin: 10px 3px;
 }
