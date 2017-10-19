@@ -47,7 +47,8 @@ p.text-left {
 	max-width: 450px;
 }
 .btn {
-	font-size: 14px!important;
+	border-radius: 50px 50px;
+	font-size: 12px!important;
 	font-weight: 700;
 	cursor: pointer;
 }
@@ -59,6 +60,12 @@ ul.social-menu {
 .col-md-4 p {
 	font-size: 17px;
 }
+.Portofolio,
+.container-fluid.Portofolio {
+	background-color: $default;
+	padding-bottom: 0;
+}
+
 
 // Navbar
 .bg-dark {
@@ -78,18 +85,20 @@ ul.social-menu {
 	color: $active;
 }
 .btn-outline-warning {
-	font-size: 14px;
+
 	text-transform: uppercase;
 	padding: 7px 25px;
 	color: $btn!important;
 	border-color: $btn!important;
-	border-radius: 50px 50px;
 	background-color: $transparan;
 	background-image: none;
 	box-shadow: 0px 1px 10px $btn;
 }
 
 // Intro
+header .container:first-child {
+	margin-top: 30px;
+}
 .col.align-self-start {
 	margin-top: 200px;
 
@@ -103,9 +112,8 @@ ul.social-menu {
 	font-weight: 900;
 }
 .btn.btn-dark {
-	border-radius: 50px 50px;
 	text-transform: uppercase;
-	padding: 10px 30px;
+	padding: 12px 30px;
 }
 
 // Section
@@ -160,4 +168,38 @@ h5.mt-0 {
 	font-size: 22px;
 	color: #3a9dff;
 	margin-top: 5px;
+}
+
+// Portofolio
+.container-fluid.Portofolio {
+	margin: 0;
+}
+.Portofolio h2 {
+	text-transform: capitalize;	
+	color: #252525;
+}
+.Portofolio h3 {
+	color: #8799A3;
+}
+.btn-primary {
+	background-color: #1CBBB3!important;
+	border: none;
+	margin-left: 80px;
+	text-transform: uppercase;
+	padding: 15px 43px;
+	box-shadow: 0 1px 10px #1CBBB3!important;
+}
+
+// Gallery
+.card-body {
+	padding: 0;
+}
+.card-img-top.primary-photo {
+	height: 375px;
+}
+.card-img-top {
+	height: 255px;
+}
+.col-3 .img-2 {
+	height: 630px;
 }
