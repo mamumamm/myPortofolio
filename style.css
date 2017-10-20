@@ -228,11 +228,10 @@ h5.mt-0 {
 .main-testimonial {
   background-image: url("assets/bg-client.jpg");
   background-size: 145%;
-  height: 840px;
   padding: 0; }
 
-.testimonial {
-  padding-top: 150px; }
+.main-testimonial .container {
+  padding: 150px 0; }
 
 .text-center h3,
 .text-center h2 {
@@ -267,10 +266,13 @@ h5.mt-0 {
 
 .carousel-item .media p {
   font-size: 13px;
-  margin-top: 3px; }
+  margin-top: 5px; }
 
 .client-logo {
-  margin-top: 100px; }
+  margin-top: 80px; }
+
+.client-logo .col-md-3 {
+  margin-top: 30px; }
 
 .client-logo img {
   width: 150px; }
