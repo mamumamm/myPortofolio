@@ -68,7 +68,15 @@ ul.social-menu {
 .col-md-4 p {
 	font-size: 17px;
 }
-
+.Portofolio h2,
+.main-article h2 {
+	text-transform: capitalize;	
+	color: #252525;
+}
+.Portofolio h3,
+.main-article h3 {
+	color: #8799A3;
+}
 
 // Navbar
 .bg-dark {
@@ -184,13 +192,6 @@ h5.mt-0 {
 	padding-bottom: 0;
 	margin: 0;
 }
-.Portofolio h2 {
-	text-transform: capitalize;	
-	color: #252525;
-}
-.Portofolio h3 {
-	color: #8799A3;
-}
 .btn-primary {
 	background-color: #1CBBB3!important;
 	border: none;
@@ -203,12 +204,23 @@ h5.mt-0 {
 .card-body {
 	padding: 0;
 }
+.card-img-top.primary-photo,
+.col-12.col-md-3,
+.col-12.col-md-6,
+.col-md-3 .img-2,
+.col-md-6 .primary-photo {
+	overflow: hidden;
+	object-fit: cover;
+}
 .card-img-top.primary-photo {
 	height: 365px;
-	object-fit: cover;
 }
 .col-md-6 .primary-photo {
 	transform: scale(1.5);
+}
+.col-md-6 .img-1 {
+	transform: scale(3);
+	margin-left: 80px;
 }
 .col-md-12 .primary-photo {
 	transform: scale(1.2);
@@ -219,12 +231,6 @@ h5.mt-0 {
 .col-md-3 .img-2 {
 	transform: scale(1.1);
 	height: 600px;
-	object-fit: cover;
-}
-.col-12.col-md-3,
-.col-12.col-md-6 {
-	overflow: hidden;
-
 }
 .card-img-overlay {
 	background-color: rgba(0,0,0,0.5);
@@ -291,7 +297,6 @@ h5.mt-0 {
 .carousel-item .media img {
 	height: 40px;
 	width: 40px;
-	border-radius: 50%;
 	object-fit: cover;
 }
 .carousel-item .media h5 {
@@ -316,3 +321,40 @@ h5.mt-0 {
 	opacity: 0.7;
 	cursor: pointer;
 }
+
+// Blog
+section.Blog {
+	background-color: $default;
+}
+.article-photo {
+	height: 100%;
+	object-fit: cover;
+}
+.main-article p.text-left {
+	font-size: 24px;
+	color: #636363;
+}
+.main-article h6 {
+ 	color: #fcfa2f 
+}
+.main-article h2 {
+	line-height: 1.4;
+}
+.article {
+	background-color: #007ef9;
+	padding: 40px 0;
+	margin-top: 70px;
+}
+.article-1 {
+	background-image: url("assets/blog-1.png");
+	background-size: 180%;
+	background-repeat: no-repeat;
+}
+// color-1: #007EF9;
+// color-2: #FCFA2F;
+// color-3: #8799A3;
+// color-4: #BBC7CD;
+// color-5: #636363;
+// color-6: #E91E62;
+// black-1: #252525;
+
